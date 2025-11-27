@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'caveat';
+  src: url('../fonts/Caveat-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'roboto';
+  src: url('../fonts/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MontserratAlternates';
+  src: url('../fonts/MontserratAlternates-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Magic';
+  src: url('../fonts/MagicSchoolOne.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: #200f7d;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+h1, h2 {
+  color: rgba(190, 172, 9, 0.8);
+  background-color: transparent;
+  filter: drop-shadow(0 0 15px purple);
+  font-family: 'Caveat', cursive;
+}
+
+a {
+  color: orchid;
+}
+
+abbr {
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+
+.textbox {
+display: inline-block;
+background-color: beige;
+border: 2px solid black;
+border-radius: 12px;
+padding: 1rem 1.5rem;
+width: auto;
+max-width: 100%;
+box-sizing: border-box;
+}
+
+.left {
+  color: black;
+  font-family: 'Caveat', cursive;
+  font-size: 22px;
+  position: relative;
+  display: flex;
+  align-items: left;
+  text-align: left;
+}
+
+.narator {
+    color: black;
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+}
+
+.truenarator {
+  color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+}
+
+.daniel {
+  color: blue;
+  font-family: 'Caveat';
+  font-size: 22px;
+}
+
+.collin {
+  color: darkgreen;
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.alice {
+  color: lightcoral;
+  font-family: 'Montserrat Alternates';
+  font-size: 18px;
+}
+
+.historyteacher {
+  color: gray;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 18px;
+}

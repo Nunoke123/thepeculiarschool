@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Magic';
+  src: url('../fonts/MagicSchoolOne.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: caveat;
+  src: url(../fonts/Caveat-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: 'Caveat', cursive;
+  background-color: black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  flex-direction: column;
+}
+
+a {
+  color: green;
+  text-decoration: none;
+  font-family: 'magic';
+  font-size: 200%;
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: limegreen;
+  background-color: green;
+  font-family: 'magic';
+  font-size: 300%;
+  border: 1px solid green;
+  padding: 10px;
+}
+
+.narator {
+    color: white;
+    font-size: 200%;
+}
