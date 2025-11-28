@@ -1,6 +1,6 @@
 @keyframes pulse {
-  0%, 100% { transform: scale(2.05); filter: drop-shadow(0 0 15px #130e98); }
-  50% { transform: scale(2.1); filter: drop-shadow(0 0 35px #3f38ff); }
+  0%, 100% { transform:scale(1); filter: drop-shadow(0 0 15px #130e98); }
+  50% { transform: scale(1.1); filter: drop-shadow(0 0 35px #3f38ff); }
 }
 
 html{
@@ -30,7 +30,8 @@ body {
 }
 
 .logo {
-  transform: scale(2);
+  width: 85svw;
+  height: 50svh;
   filter: drop-shadow(0 0 20px #3f38ff);
   margin-top: -150px;
   animation: pulse 3s ease-in-out infinite;
