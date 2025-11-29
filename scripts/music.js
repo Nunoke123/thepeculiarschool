@@ -1,26 +1,7 @@
 const audio = document.getElementById("bg-audio");
 const toggleBtn = document.getElementById("audio-toggle");
 
-// Automatisch starten bij load (werkt soms enkel na user interaction)
-document.addEventListener("DOMContentLoaded", () => {
-    audio.volume = 0.35; 
-    audio.play().catch(() => {
-        // Browsers blokkeren auto-play → dan toont de knop dit:
-        toggleBtn.textContent = "🔈 Music: OFF (click to enable)";
-    });
-});
-
-// Wanneer je op de knop klikt
-toggleBtn.addEventListener("click", () => {
-    if (audio.paused) {
-        audio.play();
-        toggleBtn.textContent = "🔊 Music: ON";
-    } else {
-        audio.pause();
-        toggleBtn.textContent = "🔈 Music: OFF";
-    }
-});
-// Load saved state
+// 1. Load saved state
 document.addEventListener("DOMContentLoaded", () => {
     const savedSetting = localStorage.getItem("music");
 
@@ -30,13 +11,15 @@ document.addEventListener("DOMContentLoaded", () => {
         audio.pause();
         toggleBtn.textContent = "🔈 Music: OFF";
     } else {
-        audio.play().catch(() => {
+        audio.play().then(() => {
+            toggleBtn.textContent = "🔊 Music: ON";
+        }).catch(() => {
             toggleBtn.textContent = "🔈 Music: OFF (click to enable)";
         });
     }
 });
 
-// Save new setting
+// 2. Toggle button
 toggleBtn.addEventListener("click", () => {
     if (audio.paused) {
         audio.play();
