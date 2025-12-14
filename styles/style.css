@@ -79,6 +79,7 @@ body {
 
 .socials a:hover {
   padding-bottom: 16px;
+  filter: drop-shadow(0 0 15px #3f38ff);
 }
 
 .hub {
