@@ -216,6 +216,13 @@ body {
   color: orchid;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+
 .faq {
   display: flex;
   flex-direction: column;
