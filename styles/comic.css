@@ -1,25 +1,3 @@
-@font-face {
-  font-family: 'caveat';
-  src: url('../fonts/Caveat-VariableFont_wght.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'roboto';
-  src: url('../fonts/Roboto-VariableFont_wdth\,wght.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'MontserratAlternates';
-  src: url('../fonts/MontserratAlternates-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'Magic';
-  src: url('../fonts/MagicSchoolOne.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 @keyframes horizontal-shaking {
  0% { transform: translateX(0) }
  25% { transform: translateX(5px) }
@@ -78,40 +56,4 @@ box-sizing: border-box;
   display: flex;
   align-items: left;
   text-align: left;
-}
-
-.narator {
-    color: black;
-    font-family: 'Caveat', cursive;
-    font-size: 22px;
-}
-
-.truenarator {
-  color: white;
-    font-family: 'Caveat', cursive;
-    font-size: 22px;
-}
-
-.daniel {
-  color: blue;
-  font-family: 'Caveat';
-  font-size: 22px;
-}
-
-.collin {
-  color: darkgreen;
-  font-family: 'Roboto';
-  font-size: 18px;
-}
-
-.alice {
-  color: lightcoral;
-  font-family: 'Montserrat Alternates';
-  font-size: 18px;
-}
-
-.historyteacher {
-  color: gray;
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 18px;
 }
