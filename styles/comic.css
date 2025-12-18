@@ -37,6 +37,15 @@ footer {
   gap: 50px;
 }
 
+footer a {
+  color: green;
+  background-color: Black;
+  border: 3px solid Green;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
 .textbox {
 display: inline-block;
 background-color: beige;
@@ -46,14 +55,4 @@ padding: 1rem 1.5rem;
 width: auto;
 max-width: 100%;
 box-sizing: border-box;
-}
-
-.left {
-  color: black;
-  font-family: 'Caveat', cursive;
-  font-size: 22px;
-  position: relative;
-  display: flex;
-  align-items: left;
-  text-align: left;
 }
