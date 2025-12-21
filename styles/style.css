@@ -246,3 +246,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.note {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
