@@ -252,3 +252,18 @@ body {
   flex-direction: row;
   gap: 10px;
 }
+
+.extra {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.galleryitem {
+  width: 30svw;
+  background-color: #0d0b40;
+  border: 3px solid #000000;
+  padding: 10px;
+  overflow: auto;
+}

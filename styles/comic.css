@@ -55,4 +55,5 @@ padding: 1rem 1.5rem;
 width: auto;
 max-width: 100%;
 box-sizing: border-box;
+word-wrap: break-word;
 }
