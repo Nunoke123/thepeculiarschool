@@ -1,0 +1,45 @@
+.narator {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.truenarator {
+  color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.daniel {
+  color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+.collin {
+  color: darkgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.alice {
+  color: lightcoral;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.historyteacher {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.left {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  position: relative;
+  display: flex;
+  align-items: left;
+  text-align: left;
+}
